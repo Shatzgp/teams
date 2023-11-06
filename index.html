@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHATZ LIGHT Streaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-V3zje9IsxzO8v4z3srQv25u+cTG9DnPRy9z1kPc0VsDbHrQ4aZc7hnJS4fiGZX6sFY45H7kMOLtbLtjA/zA0Mw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+    <button id="recordButton" class="record-button">Start Recording</button>
+    <div class="controls">
+        <button id="muteButton"><i class="fas fa-volume-up"></i></button>
+        <button id="cameraButton"><i class="fas fa-video"></i></button>
+        </div>
+    </div>
+    <div class="users-tab">
+        <h2>Users</h2>
+        <ul id="userList"></ul>
+    </div>
+
+
+
+    <h1 class="heading">SHATZ LIGHT Streaming</h1>
+    <div class="container">
+        <video id="videoPlayer" autoplay></video>
+    </div>
+    <div class="footer">
+        &copy; 2023 SHATZ LIGHT. All rights reserved.
+    </div>
+    <script src="https://cdn.socket.io/4.1.3/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

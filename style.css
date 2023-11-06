@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #BAE4AC;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info span {
+    font-weight: bold;
+}
+
+.info .instructions {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.info .instructions span {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.users-tab {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.users-tab h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#userList {
+    list-style: none;
+    padding: 0;
+}
+
+#userList li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.heading {
+    text-align:right;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.record-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.record-button:hover {
+    background-color: #45a049;
+}
